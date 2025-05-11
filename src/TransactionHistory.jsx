@@ -184,7 +184,7 @@ const TransactionHistory = () => {
                       <span className={`font-bold text-xl ${
                         tx.type === 'sent' ? 'text-red-400' : 'text-green-400'
                       }`}>
-                        {tx.type === 'sent' ? '-' : '+'}{tx.amount} coins
+                        {tx.type === 'sent' ? '-' : '+'}{tx.amount} TEO coins
                       </span>
                     </div>
                     

@@ -195,7 +195,7 @@ const CreditCardApp = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-300">Solde disponible</h3>
                   <p className="text-2xl font-bold text-white mt-1">
-                    {isLoading ? 'Chargement...' : `${formattedBalance} coins`}
+                    {isLoading ? 'Chargement...' : `${formattedBalance} TEO coins`}
                   </p>
                 </div>
                 <div className="bg-green-900/50 backdrop-blur-sm p-3 rounded-full">
