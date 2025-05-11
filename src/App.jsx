@@ -13,12 +13,12 @@ function App() {
     {/* Routes pour la page d'accueil, la connexion et l'inscription */}
    <Routes>
    <Route path="/" element={<Home />} />
-   <Route path="/login" element={<LoginPage />} />
-   <Route path="/signup" element={<SignupPage />} />
+   <Route path="./login" element={<LoginPage />} />
+   <Route path="./signup" element={<SignupPage />} />
    </Routes>
     <Routes>
-      <Route path="/mainpage" element={<MainPage />} />
-      <Route path="/transaction-history" element={<TransactionHistory />} />
+      <Route path="./mainpage" element={<MainPage />} />
+      <Route path="./transaction-history" element={<TransactionHistory />} />
       {/* Autres routes ici */}
     </Routes>
     </>
